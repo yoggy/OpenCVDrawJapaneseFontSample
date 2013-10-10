@@ -1,24 +1,24 @@
 OpenCVDrawJapaneseFontSample
 ====
-OpenCV+WindowsŠÂ‹«‚Å“ú–{ŒêƒtƒHƒ“ƒg‚Ì•`‰æƒeƒXƒgB
+OpenCV+Windowsç’°å¢ƒã§æ—¥æœ¬èªãƒ•ã‚©ãƒ³ãƒˆã®æç”»ãƒ†ã‚¹ãƒˆã€‚
 
-GDI+‚ğg—p‚µ‚Ä•¶š‚ğ•`‰æ‚µ‚Ä‚¢‚Ü‚·B
+GDI+ã‚’ä½¿ç”¨ã—ã¦æ–‡å­—ã‚’æç”»ã—ã¦ã„ã¾ã™ã€‚
 
 How to use
 ====
 <pre>
 
 #include "cv_draw_font.h"
-    E
-    E
-    E
+    ãƒ»
+    ãƒ»
+    ãƒ»
   cv::Mat image(cv::Size(640, 480), CV_8UC3);
   image = CV_RGB(0, 0, 64); // clear
   
-  CvDrawFont font(_T("ƒƒCƒŠƒI"), 24);
-  font.draw(image, "•`‰æ‚·‚é•¶š", 20, 100, CV_RGB(255, 255, 255));
-    E
-    E
-    E
+  CvDrawFont font(_T("ãƒ¡ã‚¤ãƒªã‚ª"), 24);
+  font.draw(image, "æç”»ã™ã‚‹æ–‡å­—", 20, 100, CV_RGB(255, 255, 255));
+    ãƒ»
+    ãƒ»
+    ãƒ»
 </pre>
 
