@@ -16,7 +16,7 @@ How to use
   image = CV_RGB(0, 0, 64); // clear
   
   CvDrawFont font(_T("メイリオ"), 24);
-  font.draw(image, "描画する文字", 20, 100, CV_RGB(255, 255, 255));
+  font.draw(image, _T("描画する文字"), 20, 100, CV_RGB(255, 255, 255));
     ・
     ・
     ・
